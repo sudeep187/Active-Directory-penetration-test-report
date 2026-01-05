@@ -1,0 +1,12 @@
+administrator
+alice
+alice.admin
+aliceadmin
+bob
+sql
+sql_svc
+svc_sql
+krbtgt
+test
+intern
+intern1

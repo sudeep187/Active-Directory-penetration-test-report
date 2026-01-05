@@ -1,0 +1,2 @@
+administrator@corp.local
+intern1@corp.local

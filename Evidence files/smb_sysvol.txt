@@ -1,0 +1,7 @@
+smbclient -L //192.168.100.10 -N                           
+session setup failed: NT_STATUS_CONNECTION_DISCONNECTED
+                                                                                                                   
+┌──(kali㉿kali)-[~/Desktop]
+└─$ smbclient //192.168.100.10/SYSVOL -N
+Anonymous login successful
+tree connect failed: NT_STATUS_ACCESS_DENIED

